@@ -4,7 +4,7 @@ import axios from 'axios';
 export default function Login() {
 
     const fetchAPI = async () => {
-        const response = await axios.get("http://localhost:8080/api");
+        const response = await axios.get("http://localhost:8080/oauth");
         console.log(response.data.fruits);
     }
 
